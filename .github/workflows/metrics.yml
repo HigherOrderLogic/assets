@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate metrics
 
 on:
   schedule: [{cron: "0 0 * * *"}]
@@ -34,3 +34,4 @@ jobs:
           plugin_notable: yes
           plugin_notable_indepth: yes
           plugin_notable_repositories: yes
+          plugin_notable_from: all
